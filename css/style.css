@@ -1,0 +1,106 @@
+/* General body styles */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #000000;
+    color: #f8ecec;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #00796b;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin:0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* i did not needed bullets for support page  */
+/* code for removing bullets */
+.no-bullets {
+    list-style: none;   
+    padding-left: 0;  
+}
+
+.no-bullets li {
+    margin-bottom: 10px;
+}
+
+/* main and Content section styling */
+.hero, .content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Image container style */
+.image-container {
+    max-width: 300px;
+    margin: 20px auto;
+}
+/* game boy image styling */
+.hero-img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #222;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Button styling */
+button {
+    background-color: #ffeb3b;
+    border: 2px solid #222;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* hover effect for button */
+button:hover {
+    background-color: #fdd835;
+}
+
+/* Deal info section */
+.deal-info {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    color: #d32f2f;
+}
+
+/* Stars for feedback */
+.stars span {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.stars span.selected {
+    color: #ffcc00;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 50px;
+}

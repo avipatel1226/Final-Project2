@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation bar -->
+<nav>
+  <ul>
+    <li><a href="index.html">Promotion</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+    <li><a href="support.html">Support</a></li>
+    <li><a href="nintendo-info.html">Nintendo Info</a></li>
+  </ul>
+</nav>
+
+<section class="content">
+  <h2>Share Your Game Boy Memories</h2>
+
+  <form id="feedbackForm">
+    <p><label for="name">Name:</label>
+    <input type="text" id="name" required placeholder="Your Name"></p>
+    
+    <p><label for="comment">Comment:</label>
+    <textarea id="comment" required placeholder="Your thoughts about the Game Boy"></textarea></p>
+    
+
+    <label for="rating">Rating:</label>
+    <div class="stars">
+      <span data-value="1">&#9733;</span>
+      <span data-value="2">&#9733;</span>
+      <span data-value="3">&#9733;</span>
+      <span data-value="4">&#9733;</span>
+      <span data-value="5">&#9733;</span>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="feedbackMessage"></p>
+</section>
+
+<footer>
+  <p>&copy; 1989 Nintendo | All rights reserved</p>
+</footer>
+<!--to connect code with javascript-->
+<script src="js/script.js"></script>
+</body>
+</html>
